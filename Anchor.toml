@@ -6,6 +6,7 @@ skip-lint = false
 
 [programs.localnet]
 marketplace = "AmkTY41atB8Go8Fgp3c3G9TshZ8jS24uZr2GUd6CArYn"
+thobaby-token = "7VRhge12SRGVNCsJNuS2d6YgHhDQuD8Kt84Z5KtxQYP"
 
 [registry]
 url = "https://api.apr.dev"
@@ -15,4 +16,4 @@ cluster = "Localnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
-test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+test = "bunx ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

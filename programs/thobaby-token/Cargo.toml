@@ -1,12 +1,12 @@
 [package]
-name = "marketplace"
+name = "thobaby-token"
 version = "0.1.0"
 description = "Created with Anchor"
 edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "marketplace"
+name = "thobaby_token"
 
 [features]
 default = []
@@ -18,3 +18,5 @@ idl-build = ["anchor-lang/idl-build"]
 
 [dependencies]
 anchor-lang = "0.30.0"
+anchor-spl= "0.30.0"
+mpl-token-metadata = "4.1.2"
